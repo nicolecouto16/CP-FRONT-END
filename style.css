@@ -1,5 +1,5 @@
 h1 {
-    color: rgb(97, 9, 32);
+    color: rgb(67, 6, 6);
     font-size: 40px;
     font-family: "Playfair Display", serif;
 
@@ -7,7 +7,6 @@ h1 {
 p {
     font-size: 22px;
     font-family: "Playfair Display", serif;
-
 }
 
 .container {
@@ -37,9 +36,7 @@ body {
   align-items: center;       /* centraliza verticalmente */             
   background-color: rgb(67, 6, 6);
   font-size: 30px;
-
 }
-
 
 .logo {
   color: rgb(198, 9, 56);
@@ -58,13 +55,11 @@ body {
   color: white;
 }
 
-
 .bloco2 {
     background-color: black;
     font-size: 70px;
     color: #ccc;
     font-family: "Playfair Display", serif;
-
 }
 
 section article h1 {
@@ -72,14 +67,49 @@ section article h1 {
 }
 
 .imagem {
-     border-top-left-radius: 20px;
+  border-top-left-radius: 20px;
   border-top-right-radius: 0;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 0;
 }
 
-section article p {
-  background-color:rgb(67, 6, 6);
-  font-size: 40px;
+footer, h2 {
+  background-color: rgb(67, 6, 6);
+  color: #ccc;
+  font-size: 20px;
+  
 }
 
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#rodape {
+  position: relative;
+  padding: 40px 0;
+}
+
+/* imagem colada na esquerda */
+.imgInter {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+
+.imgInter img {
+  height: 100%;
+  width: 250px;
+  object-fit: cover;
+}
+
+/* conteúdo centralizado */
+.final {
+  display: flex;
+  justify-content: center; /* centraliza horizontal */
+}
+
+.conteudo {
+  text-align: center; /* centraliza texto */
+  max-width: 500px;
+}
