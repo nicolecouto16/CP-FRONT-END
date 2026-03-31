@@ -9,14 +9,26 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header class="topo">
-            <img src="../css/img/logoagnello.jpg.png" class="logo" alt="Logo">
-            <nav class="nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="contatos.html">Contatos</a></li>
-                </ul>
-            </nav>
+
+<header class="header">
+  <div class="container1">
+    <nav class="menu">
+      <a href="/index.html">Home</a>
+      <a href="./produto.html">Produto</a>
+      <a href="./galeria.html">Galeria</a>
+      <a href="#">Equipe</a>
+      <a href="./contato.html">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<section>
+    <article>
+    <div class="bloco2">
+    <h1">Vinharia Agnello</h1>
+    </div>
+    </article>
+</section>
 
     </header>
     <main>
@@ -26,16 +38,16 @@
             <br>
             <div class="grid-galeria">
                 <div class="card">
-                <img src="css/img/vinho1.jpg" alt="Vinho tinto">
+                <img src="../assets/img/vinho1.jpg" alt="Vinho tinto">
                 </div>
                 <div class="card">
-                <img src="css/img/vinho2.png" alt="Vinho branco">
+                <img src="../assets/img/vinho2.png" alt="Vinho branco">
                 </div>
                 <div class="card">
-                <img src="css/img/vinho 3.png" alt="Vinho rosé">
+                <img src="../assets/img/vinho 3.png" alt="Vinho rosé">
                 </div>
                 <div class="card">
-                <img src="css/img/vinho4.webp" alt="Vinho premium dog">
+                <img src="../assets/img/vinho4.webp" alt="Vinho premium dog">
                 </div>
             </div>
         </section>
@@ -75,8 +87,31 @@
 
         </section>
     </main>
-    <footer>
-        <p>2026 Vinheria Agnello</p>
-    </footer>
+    <footer id="rodape">
+  <div class="interface">
+
+    <div class="final">
+      
+      <div class="imgInter">
+        <img src="../assets/img/garrafas.jpg" alt="garrafas em amostra">
+      </div>
+
+      <div class="conteudo">
+        <h2>Quer saber mais?</h2>
+        <p>Preencha o formulário abaixo para ficar por dentro!</p>
+
+        <form>
+          <label for="nome_sobrenome">Nome</label>
+          <input type="text" name="nome_sobrenome">
+
+          <button type="submit">Enviar formulario</button>
+          <button type="reset">Limpar formulario</button>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+</footer>
 </body>
 </html> 
