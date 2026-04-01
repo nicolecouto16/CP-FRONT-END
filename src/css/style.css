@@ -214,7 +214,7 @@ footer, h2 {
   background-color: rgb(67, 6, 6);
   color: #ccc;
   font-size: 20px;
-  
+  margin-bottom: 20px;
 }
 
 .interface {
@@ -348,3 +348,34 @@ th {
 footer {
   margin-top: 20px;
 }
+
+.img_membros{
+  border-radius: 30px;
+    width: 30rem;
+    display: block;
+    margin: 44px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.card-equipe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #555 1px solid;
+}
+
+
+
+.card-equipe [type="button"]{
+    color: rgb(255, 0, 89);
+    font-size: 20px;
+    padding: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgba(141, 108, 182, 0.355);
+    border-color: rgba(210, 105, 30, 0.562);
+}
+
