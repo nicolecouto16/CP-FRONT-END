@@ -1,5 +1,5 @@
 /*RESET*/
-{
+*{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -133,7 +133,7 @@ box-sizing: border-box;
     box-shadow: 0 6px 12px rgba(14, 14, 14, 0.2);
 }
 
-//---------------------------------------------//
+*/---------------------------------------------*/
 
 h1 {
     color: rgb(67, 6, 6);
@@ -256,7 +256,7 @@ footer, h2 {
     justify-content: center;
     padding: 25px;
 }
- 
+
 .produto {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -270,6 +270,7 @@ footer, h2 {
 .produto img {
     width: 100%;
     height: auto;
+    object-fit: cover;
     border-bottom: 1px solid #dddddd;
     margin-bottom: 10px;
 }
@@ -280,17 +281,16 @@ footer, h2 {
 .produto p {
     font-size: 16px;
     color: #555;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .produto button {
-    background-color: #28a745;
+    background-color: #289942;
     color: #fff;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 100px;
     cursor: pointer;
 }
- 
 .produtes {
     display: flex;
     flex-direction: column;
@@ -298,5 +298,53 @@ footer, h2 {
     align-items: center;
     padding: 50px 30px 20px 10px;
 }
+ .produtes h2 { 
+    background-color: rgb(67, 6, 6);
+    font-size: 40px;
+    color: #ccc;
+    font-family: "Playfair Display", serif;
+    padding: 20px;
+    border-radius: 50px;    
+}
+.produtes .produtos {
+    margin-top: 30px;
+}
+.produto button:hover {
+    background-color: #22c746;
+}
+.produto img {
+  max-width: 100%;
+  max-height: 180px;
+  width: auto;
+  height: auto;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+.produtes p {
+  margin-top: 20px;
+}
 
- 
+/* Minha Tabela de Harmonização */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+h2 {
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+footer {
+  margin-top: 20px;
+}
