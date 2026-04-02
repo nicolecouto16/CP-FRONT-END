@@ -48,28 +48,35 @@ box-sizing: border-box;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   text-align: center;
 }
+
 .pagina-contato h1 {
   margin-bottom: 10px;
 }
+
 .pagina-contato p {
   margin-bottom: 20px;
   color: #666;
 }
+
+/*formulario*/
 form {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
+
 input, textarea {
   padding: 12px;
   border-radius: 8px;
   border: 1px solid #ccc;
   transition: 0.3s;
 }
+
 input:focus, textarea:focus {
   border-color: #c59d5f;
   outline: none;
 }
+
 button {
   background: #1f1f1f;
   color: white;
@@ -79,13 +86,17 @@ button {
   cursor: pointer;
   transition: 0.3s;
 }
+
 button:hover {
-  background: #c59d5f;
+  background: #771515;
 }
+
+/*beneficios*/
 .beneficios {
   text-align: center;
   margin: 40px auto;
 }
+
 .cards {
   display: flex;
   gap: 20px;
@@ -93,6 +104,7 @@ button:hover {
   flex-wrap: wrap;
   margin-top: 20px;
 }
+
 .card {
   background: white;
   padding: 20px;
@@ -101,13 +113,17 @@ button:hover {
   box-shadow: 0 5px 10px rgba(0,0,0,0.1);
   transition: 0.3s;
 }
+
 .card:hover {
   transform: translateY(-5px);
 }
+
+/*horario*/
 .horario {
   text-align: center;
   margin: 40px auto;
 }
+
 .horarios-box {
   background: white;
   display: inline-block;
@@ -118,6 +134,13 @@ button:hover {
 }
 
 /*galeria*/
+.nossos-vinhos {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #4a2c2a;
+}
 .grid-galeria {
   display: flex;
   flex-wrap: wrap;
@@ -128,6 +151,7 @@ button:hover {
     color: #802929;
     margin-bottom: 20px;
     text-align: center;
+    font-family: Arial, sans-serif;
 }
 .galeria img {
     width: 100%;
@@ -152,8 +176,8 @@ button:hover {
     margin: auto;
 }
 /*cards*/
-.card {
-    background: #f5dada;
+.galeria card {
+    background: #995c5c;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0.6 px 15px rgba(0,0,0,2);
@@ -163,6 +187,7 @@ button:hover {
     transform: scale(1.05);
 } 
 .card p {
+    font-family: Tahoma, sans-serif;
     font-weight: bold;
     color: #5c1a1b;
 }
@@ -198,6 +223,7 @@ button:hover {
 .tipo h3 {
     color: #5c1a1b;
     margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*video*/
