@@ -4,7 +4,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-
+ 
 .topo {
     background: #5c1a1b;
     padding: 20px;
@@ -12,6 +12,7 @@ box-sizing: border-box;
     flex-direction: column;
     align-items: center;
 }
+ 
 .logo {
     max-width: 180px;
     width: 100%;
@@ -48,35 +49,35 @@ box-sizing: border-box;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   text-align: center;
 }
-
+ 
 .pagina-contato h1 {
   margin-bottom: 10px;
 }
-
+ 
 .pagina-contato p {
   margin-bottom: 20px;
   color: #666;
 }
-
+ 
 /*formulario*/
 form {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
-
+ 
 input, textarea {
   padding: 12px;
   border-radius: 8px;
   border: 1px solid #ccc;
   transition: 0.3s;
 }
-
+ 
 input:focus, textarea:focus {
   border-color: #c59d5f;
   outline: none;
 }
-
+ 
 button {
   background: #1f1f1f;
   color: white;
@@ -86,17 +87,17 @@ button {
   cursor: pointer;
   transition: 0.3s;
 }
-
+ 
 button:hover {
   background: #771515;
 }
-
+ 
 /*beneficios*/
 .beneficios {
   text-align: center;
   margin: 40px auto;
 }
-
+ 
 .cards {
   display: flex;
   gap: 20px;
@@ -104,7 +105,7 @@ button:hover {
   flex-wrap: wrap;
   margin-top: 20px;
 }
-
+ 
 .card {
   background: white;
   padding: 20px;
@@ -113,17 +114,17 @@ button:hover {
   box-shadow: 0 5px 10px rgba(0,0,0,0.1);
   transition: 0.3s;
 }
-
+ 
 .card:hover {
   transform: translateY(-5px);
 }
-
+ 
 /*horario*/
 .horario {
   text-align: center;
   margin: 40px auto;
 }
-
+ 
 .horarios-box {
   background: white;
   display: inline-block;
@@ -132,7 +133,7 @@ button:hover {
   box-shadow: 0 5px 10px rgba(0,0,0,0.1);
   margin-top: 15px;
 }
-
+ 
 /*galeria*/
 .nossos-vinhos {
   text-align: center;
@@ -185,7 +186,7 @@ button:hover {
 }
 .card:hover {
     transform: scale(1.05);
-} 
+}
 .card p {
     font-family: Tahoma, sans-serif;
     font-weight: bold;
@@ -225,7 +226,7 @@ button:hover {
     margin: 10px 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+ 
 /*video*/
 .video {
     background: #fff;
@@ -236,91 +237,86 @@ button:hover {
     border-radius: 10px;
     box-shadow: 0 6px 12px rgba(14, 14, 14, 0.2);
 }
-
+ 
 */---------------------------------------------*/
-
+ 
 h1 {
     color: rgb(67, 6, 6);
     font-size: 40px;
     font-family: "Playfair Display", serif;
-
+ 
 }
 p {
     font-size: 22px;
     font-family: "Playfair Display", serif;
 }
-
+ 
 .container {
   display: flex;
   align-items: center; /* alinha verticalmente */
   gap: 15px; /* espaço entre imagem e texto */
-
+ 
 }
-
+ 
 .inicio {
     font-size: 30px;
 }
-
+ 
 html {
     background-color: rgb(227, 227, 238);
 }
-
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
+ 
+ 
 .header .container1 {
   display: flex;
   justify-content: flex-end; /* move os itens para a direita */
-  align-items: center;       /* centraliza verticalmente */             
+  align-items: center;       /* centraliza verticalmente */            
   background-color: rgb(67, 6, 6);
   font-size: 30px;
 }
-
+ 
 .logo {
   color: rgb(198, 9, 56);
   font-size: 32px;
   margin: 0;
 }
-
+ 
 .menu a {
   color: #ccc;
   margin: 0 15px;
   text-decoration: none;
   font-size: 16px;
 }
-
+ 
 .menu a:hover {
   color: white;
 }
-
+ 
 .bloco2 {
     background-color: black;
     font-size: 70px;
     color: #ccc;
     font-family: "Playfair Display", serif;
 }
-
+ 
 section article h1 {
     margin-left: 70px;
 }
-
+ 
 .imagem {
   border-top-left-radius: 20px;
   border-top-right-radius: 0;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 0;
 }
-
+ 
 footer, h2 {
   background-color: rgb(67, 6, 6);
   color: #ccc;
   font-size: 20px;
   margin-bottom: 20px;
 }
-
+ 
 .interface {
   max-width: 1280px;
   margin: 0 auto;
@@ -329,7 +325,7 @@ footer, h2 {
   position: relative;
   padding: 40px 0;
 }
-
+ 
 /* imagem colada na esquerda */
 .imgInter {
   position: absolute;
@@ -337,30 +333,30 @@ footer, h2 {
   top: 0;
   height: 100%;
 }
-
+ 
 .imgInter img {
   height: 100%;
   width: 250px;
   object-fit: cover;
 }
-
+ 
 /* conteúdo centralizado */
 .final {
   display: flex;
   justify-content: center; /* centraliza horizontal */
 }
-
+ 
 .conteudo {
   text-align: center; /* centraliza texto */
   max-width: 500px;
 }
-
+ 
 .produtos {
     display: flex;
     justify-content: center;
     padding: 25px;
 }
-
+ 
 .produto {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -402,7 +398,7 @@ footer, h2 {
     align-items: center;
     padding: 50px 30px 20px 10px;
 }
- .produtes h2 { 
+ .produtes h2 {
     background-color: rgb(67, 6, 6);
     font-size: 40px;
     color: #ccc;
@@ -427,13 +423,9 @@ footer, h2 {
 .produtes p {
   margin-top: 20px;
 }
-
+ 
 /* Minha Tabela de Harmonização */
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-}
+ 
 h2 {
   text-align: center;
 }
@@ -452,7 +444,7 @@ th {
 footer {
   margin-top: 20px;
 }
-
+ 
 .img_membros{
   border-radius: 30px;
     width: 30rem;
@@ -461,7 +453,7 @@ footer {
     max-width: 100%;
     height: auto;
 }
-
+ 
 .card-equipe{
   display: flex;
   flex-direction: column;
@@ -469,9 +461,7 @@ footer {
   align-items: center;
   border-bottom: #555 1px solid;
 }
-
-
-
+ 
 .card-equipe [type="button"]{
     color: rgb(255, 0, 89);
     font-size: 20px;
@@ -482,4 +472,17 @@ footer {
     background-color: rgba(141, 108, 182, 0.355);
     border-color: rgba(210, 105, 30, 0.562);
 }
-
+ 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.linkzada.externo a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1f1f1f;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
