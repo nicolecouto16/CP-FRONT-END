@@ -1,10 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF8">
-    <meta name="description" content="Entre em contato com a Vinheria Agnello">
-    <meta name="keywords" content="vinho, contato, vinheria, agnello">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF8" />
+    <meta
+      name="description"
+      content="Entre em contato com a Vinheria Agnello"
+    />
+    <meta name="keywords" content="vinho, contato, vinheria, agnello" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contato - Vinheria Agnello</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -80,24 +83,63 @@
       <div class="imgInter">
         <img src="../assets/img/garrafas.jpg" alt="garrafas em amostra">
       </div>
-
-      <div class="conteudo">
-        <h2>Quer saber mais?</h2>
-        <p>Preencha o formulário abaixo para ficar por dentro!</p>
+    </header>
+    <main>
+      <section class="contato">
+        <h2>Fale Conosco</h2>
+        <p>
+          Tem dúvidas sobre nossos vinhos? Entre em contato com nossa equipe
+          especializada.
+        </p>
 
         <form>
-          <label for="nome_sobrenome">Nome</label>
-          <input type="text" name="nome_sobrenome">
-
-          <button type="submit">Enviar formulario</button>
-          <button type="reset">Limpar formulario</button>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" rows="5" required></textarea>
+          <button type="submit">Enviar</button>
         </form>
+      </section>
+      <section class="beneficios">
+        <h2>Por que escolher a Agnello?</h2>
+        <div class="cards">
+          <div class="card">Atendimento especializado</div>
+          <div class="card">Vinhos nacionais e importados</div>
+          <div class="card">Armazenamento adequado</div>
+        </div>
+      </section>
+      <section class="horario">
+        <h2>Horário de Atendimento</h2>
+        <div class="horarios">
+          <p>Segunda à Sexta:<strong>10h às 18h</strong></p>
+          <p>Sábado:<strong>10h às 16h</strong></p>
+          <p>Domingo:<strong>Fechado</strong></p>
+        </div>
+      </section>
+    </main>
+    <footer id="rodape">
+      <div class="interface">
+        <div class="final">
+          <div class="imgInter">
+            <img src="../assets/img/garrafas.jpg" alt="garrafas em amostra" />
+          </div>
+
+          <div class="conteudo">
+            <h2>Quer saber mais?</h2>
+            <p>Preencha o formulário abaixo para ficar por dentro!</p>
+
+            <form>
+              <label for="nome_sobrenome">Nome</label>
+              <input type="text" name="nome_sobrenome" />
+
+              <button type="submit">Enviar formulario</button>
+              <button type="reset">Limpar formulario</button>
+            </form>
+          </div>
+        </div>
       </div>
-
-    </div>
-
-  </div>
-</footer>
-    
-</body>
+    </footer>
+  </body>
 </html>
