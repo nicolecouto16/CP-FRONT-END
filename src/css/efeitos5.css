@@ -38,3 +38,22 @@
   margin: 6px auto 0 auto;
 }
 
+/* Pulsar oo botão Comprar agora */
+@keyframes pulsar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Notei que sem isso a animação fica tão nítido */
+.produto button {
+  animation: pulsar 1.5s infinite;
+  -webkit-font-smoothing: antialiased;
+  transform: translateZ(0);
+}
