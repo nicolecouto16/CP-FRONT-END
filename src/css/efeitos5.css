@@ -1,0 +1,40 @@
+/* Aplicando nth-child(even) e nth-child(odd) */
+.produtos .produto:nth-child(odd) {
+  background-color: #fcebeb96;
+  border-color: #641d1d;
+}
+
+.produtos .produto:nth-child(even) {
+  background-color: #ffffff;
+  border-color: #f12e0b;
+}
+
+/* Tabela destacada linha sim e linha não */
+.tabela-produto tr:nth-child(even) {
+  background-color: #f5dada;
+}
+
+.tabela-produto tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.tabela-produto tr:last-child {
+  font-weight: bold;
+  border-top: 2px solid #b06060;
+}
+
+/* Pseudo-elemento ::before */
+.produtes h2::before {
+  content: "🍷 ";
+}
+
+/* Pseudo-elemento ::after */
+.produto h3::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  background-color: #b06060;
+  margin: 6px auto 0 auto;
+}
+
