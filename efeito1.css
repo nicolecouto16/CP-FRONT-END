@@ -1,4 +1,8 @@
 p::first-letter {
-    color: rgb(102, 14, 14);;
+    color: rgb(102, 14, 14);
     font-size: 40px;
+}
+
+form input:focus{
+    background-color: rgb(124, 67, 67);
 }
