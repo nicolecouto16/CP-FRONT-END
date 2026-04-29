@@ -13,6 +13,7 @@ Site institucional da Vinheria Agnello — catálogo de vinhos, galeria, equipe 
 │   ├── equipe.html        (informações equipe)
 │   └── contato.html       (formulário contato)
 ├── style.css   
+│ └── efeitos.css
 └── src
 
 ```
