@@ -43,3 +43,9 @@ Bordô: #5c1a1b | Bege: #f5dada | Ouro: #c59d5f
 📧 contato@vinheriaagnello.com
 
 ---
+Feito por:
+Leticia Couto
+Nicole Couto
+Robert
+Ryan Maick
+Beatriz
