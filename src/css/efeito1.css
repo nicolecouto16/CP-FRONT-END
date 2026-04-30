@@ -34,3 +34,12 @@ form input:focus{
     transform: translateY(30px);
     animation: aparecer 0.8s ease forwards;
 }
+
+.tipo:nth-child(2n + 1){
+    background-color: rgb(102, 14, 14);
+    color: white;
+}
+.tipo h3{
+    color: black;
+}
+
