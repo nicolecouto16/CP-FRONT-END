@@ -49,3 +49,10 @@ Nicole Couto
 Robert
 Ryan Maick
 Beatriz
+
+
+Link do site:
+https://nicolecouto16.github.io/CP-FRONT-END/
+
+Link do repositório:
+https://github.com/nicolecouto16/CP-FRONT-END
